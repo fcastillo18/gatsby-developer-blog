@@ -26,7 +26,7 @@ class About extends React.Component {
             <Img fluid={profilePhoto.childImageSharp.fluid} />
           </div>
           <div className={style.content}>
-            <h1>Ciao, sono Luigi!</h1>
+            <h1>Ciao, sono Franklin!</h1>
             <h2>Software Developer</h2>
             <p>For the English version click here</p>
             <a href={Utils.resolvePageUrl('../', '../', 'about')}>
